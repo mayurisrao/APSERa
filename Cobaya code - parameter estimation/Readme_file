@@ -10,3 +10,6 @@ How is the normalized sensitivity array calculated:
 -> Normalized sensitivity for a parameter 'q' =  [(I (mod_q) - I (std_q))/ (q1 - q)] / q
 
 Normalized sensitivity for all the five parameters are calculated and saved as "p Normalized Sensitivity.txt" for the parameter 'p'. 
+
+Each parameter is varied by 0.01 and the modified signal is generated. The files saved are for this case. p1 = p + 0.01
+
