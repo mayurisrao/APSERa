@@ -1,0 +1,12 @@
+To calculate the covariance matrix of the 5 cosmological parameters, normalized sensitivity for each parameter is estimated considering 201 channels from 2-4 GHz. Matteo's code is used to generate the signals.
+
+How is the normalized sensitivity array calculated:
+-> Signal with the standard cosmological parameters is considered. 
+-> Signal is generated now by modifying one parameter (say 'p') to p1, where p is the standard value. 
+-> Change in the intensity of the signal is calculated (I (mod_p) - I (std_p)), where I(mod_p) is the intensity of the signal with one modified parameter (p, here).
+-> Basically the derivative is calculated:                      S = (I (mod_p) - I (std_p))/ (p1 - p). 
+-> Normalizing so that we can compare different parameter sensitivity: We divide this sensitivity by the value of the parameter.                                            Normalized sensitivity for parameter 'p' = S/ p
+
+-> Normalized sensitivity for a parameter 'q' =  [(I (mod_q) - I (std_q))/ (q1 - q)] / q
+
+Normalized sensitivity for all the five parameters are calculated and saved as 
