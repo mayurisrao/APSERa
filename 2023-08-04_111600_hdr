@@ -1,0 +1,15 @@
+Instrument ID: Keysight Technologies,N9912A,MY51463343,A.08.18
+
+System date: 2023,8,4
+Start frequency: 500000000
+Stop frequency: 4100000000
+Center frequency: 2300000000
+Frequency span: 3600000000
+Resolution BW: 3.000000E+05
+Video BW: 9.000000E+05
+Sweep points: 1001
+Sweep time: 1
+Data form: ASC,0
+Start time: 11,34,11
+End time: 11,34,22
+
