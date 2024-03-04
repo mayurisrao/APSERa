@@ -1,3 +1,25 @@
+### view_rfi_data_csv.py
+""" 
+1. Navigate to folder with the data set
+ 2. run the command
+ >> python view_rfi_data_csv.py filename_without_csv
+  (where filename_without_csv is the file you would like to plot but without the extension)
+ 
+Note: 
+You would need python (say version 3.7) and the following packages installed
+1. numpy
+2. matplotlib
+3. os
+4. pandas
+5. scipy
+6. sys
+7. pathlib
+ 
+takes the range from the data.
+Both plots get saved in the same folder as .png files. For now, we are only plotting 
+waterfall with spectrum number as y-axis instead of true time stamp, easy to change later. """
+
+
 import numpy as np
 import matplotlib.pyplot as plt
 from numpy import genfromtxt
