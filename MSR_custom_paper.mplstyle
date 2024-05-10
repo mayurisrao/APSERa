@@ -1,0 +1,46 @@
+# MSR custom style file derived from Seaborn poster context
+
+figure.figsize: 12.8, 8.8
+figure.dpi : 100
+axes.labelsize: 17.6
+axes.titlesize: 19.2
+axes.linewidth: 2
+#axes.grid.which: both
+axes.labelweight: bold
+axes.grid.axis: both
+
+xtick.labelsize: 20
+ytick.labelsize: 20
+legend.fontsize: 16
+
+
+
+lines.linewidth: 2.8
+patch.linewidth: 0.48
+lines.markersize: 11.2
+lines.markeredgewidth: 0
+
+xtick.major.width: 1.6
+ytick.major.width: 1.6
+xtick.minor.width: 0.8
+ytick.minor.width: 0.8
+
+xtick.major.pad: 11.2
+ytick.major.pad: 11.2
+
+
+text.usetex : True
+axes.prop_cycle: cycler('color', ['252427', '920527', '094C90', '757A7D', '81990B', '714D2A', 'FDD003', 'D08B16', '02A0DA']) #Waseda color cycle : https://github.com/hosilva/mplstyle?tab=readme-ov-file#waseda-color-cycle
+
+grid.linewidth: 1.6
+grid.linestyle: --
+grid.color: '0.65'
+
+savefig.dpi: 100
+
+font.monospace: True
+#font.serif: True
+font.size: 18
+font.weight: bold
+xtick.minor.visible: True
+ytick.minor.visible: True
