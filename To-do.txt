@@ -1,0 +1,10 @@
+Improvements to do in simple power law model
+1. Include all sky-maps
+2. Include option to introduce analytic s11
+3. Include option to save output spectra
+4. Make waterfall plots in LST axis
+
+Mega update - new code
+1. Ability to use APSERa beam
+2. Ability to use APSERa s11
+3. Signal / parameter extraction MCMC studies
